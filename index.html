@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SastaCart • Authentic Quality, Honest Prices</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+
+    <nav>
+        <a href="#" class="logo">SASTACART <span class="tagline">Sasta Bhi, Accha Bhi!</span></a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <button id="auth-btn" class="auth-btn">Sign In</button>
+        </div>
+        <div class="cart-icon" id="cart-toggle">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="9" cy="21" r="1" />
+                <circle cx="20" cy="21" r="1" />
+                <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6" />
+            </svg>
+            <span class="cart-badge" id="cart-badge">0</span>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <h1>Authentic Selection. Honest Prices.</h1>
+        <p>Expertly curated essentials for your lifestyle. High-standard craftsmanship, delivered with a commitment to
+            unbeatable value.</p>
+        <a href="#products" class="btn-primary">Browse Collection</a>
+    </header>
+
+    <section id="products">
+        <h2 class="section-title">Our Essentials</h2>
+        <div class="products-grid" id="products-container">
+            <!-- Products are dynamically rendered here -->
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="https://images.unsplash.com/photo-1452860606245-08befc0ff44b?auto=format&fit=crop&q=80&w=600"
+                alt="Crafting" class="about-image">
+            <div class="about-content">
+                <h2>The SastaCart Journey</h2>
+                <p>It all began with a simple dream shared by two friends, <strong>Jyothi</strong> and
+                    <strong>Gauri</strong>. They noticed that high-quality, handcrafted products often came with a heavy
+                    price tag that kept them out of reach for many.
+                </p>
+                <p>Driven by the mission to make premium craftsmanship accessible to everyone, they founded
+                    <strong>SastaCart</strong>. Jyothi’s eye for detail and Gauri’s passion for sourcing the finest
+                    materials combined to create a collection that balances beauty with budget.
+                </p>
+                <p>Our goal is simple: to prove that "Accha" (Good) doesn't always have to be expensive. Every item in
+                    our cart is a testament to quality at an honest price.</p>
+                <p>At SastaCart, we believe that every home deserves a touch of elegance. By working directly with
+                    creators, we cut out the middleman to bring you heart-crafted goods that are kind to your wallet.
+                    It's our way of building a bridge between talent and you.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p>Have questions about our products or want to discuss a custom order?</p>
+            <div class="contact-info">
+                <div class="info-item">
+                    <h4>Email</h4>
+                    <p>thebcom2009@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <h4>Phone</h4>
+                    <p>+91 9746682300</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 SASTACART. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Product Detail Modal -->
+    <div class="modal-overlay" id="modal-overlay" onclick="closeProductModal()"></div>
+    <div class="product-modal" id="product-modal">
+        <button class="modal-close" onclick="closeProductModal()">&times;</button>
+        <div id="modal-content-inner"></div>
+    </div>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-overlay" id="cart-overlay"></div>
+    <div class="cart-sidebar" id="cart-sidebar">
+        <div class="cart-header">
+            <h3>🛒 Your Cart</h3>
+            <button class="cart-close" id="cart-close">&times;</button>
+        </div>
+        <div class="cart-items" id="cart-items">
+            <p class="cart-empty">Your cart is empty</p>
+        </div>
+        <div class="cart-footer" id="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cart-total-price">₹0</span>
+            </div>
+            <button class="btn-checkout" id="btn-checkout">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
