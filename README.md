@@ -2,7 +2,8 @@
 
 Welcome to **SASTACART**, a modern, budget-friendly e-commerce platform curated by **Jyothi** and **Gauri**. We believe that "Accha" (Good) doesn't have to be expensive. Our mission is to build a bridge between talented creators and value-conscious shoppers.
 
-![SASTACART Storefront](https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000)
+![SASTACART Storefront]<img width="1574" height="764" alt="Screenshot 2026-03-02 095954" src="https://github.com/user-attachments/assets/0efcb403-641b-4a7a-926d-808a903fbdec" />
+
 
 
 ## ✨ Live Demo
@@ -32,7 +33,7 @@ Once deployed, you can visit the store here:
 - Unique "Nude & Earth" color palette for a calm, organic shopping experience.
 - Fully responsive design that looks stunning on mobile, tablet, and desktop.
 
-![Premium Features & Modern UI](https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800)
+![Premium Features & Modern UI]()
 
 ---
 
