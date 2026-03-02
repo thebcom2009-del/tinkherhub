@@ -2,6 +2,9 @@
 
 Welcome to **SASTACART**, a modern, budget-friendly e-commerce platform curated by **Jyothi** and **Gauri**. We believe that "Accha" (Good) doesn't have to be expensive. Our mission is to build a bridge between talented creators and value-conscious shoppers.
 
+![SASTACART Storefront](https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&q=80&w=1000)
+
+
 ## ✨ Live Demo
 Once deployed, you can visit the store here: 
 [https://thebcom2009-del.github.io/tinkherhub/](https://thebcom2009-del.github.io/tinkherhub/)
@@ -21,11 +24,15 @@ Once deployed, you can visit the store here:
 - **Review System**: Read honest customer feedback and ratings.
 - **Interactive Ratings**: Shoppers can submit their own star ratings and reviews instantly.
 
+---
+
 ### 🎨 Premium "Amber & Earth" Aesthetic
 - A sophisticated **yellow and brown** theme using an attractive mesh gradient.
 - Modern **glassmorphic** navigation and UI elements.
 - Unique "Nude & Earth" color palette for a calm, organic shopping experience.
 - Fully responsive design that looks stunning on mobile, tablet, and desktop.
+
+![Premium Features & Modern UI](https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800)
 
 ---
 
@@ -37,6 +44,8 @@ Once deployed, you can visit the store here:
 4.  **💎 Boutique Jewelry**: Amethyst Rings, Gold Hoops, and Silver Necklaces.
 5.  **✏️ Eco-Stationery**: Bamboo Pen Sets, Washi Tapes, and Paper Journals.
 6.  **💄 Beauty Essentials**: Organic Lip Tints and Pro Hair Styling tools.
+
+![Product Collections Showcase](https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&q=80&w=800)
 
 ---
 
